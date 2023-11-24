@@ -1,0 +1,36 @@
+.checkout-form{
+    max-width: 600px;
+    margin:20px auto;
+    padding:20px;
+    border:1px solid #ccc;
+    border: radius 5px;
+
+}
+
+.checkout-form h2{
+    text-align: center;
+}
+
+.checkout-form form{
+    display:flex;
+    flex-direction:column;
+}
+
+.checkout-form label{
+    margin: top 10px;
+
+}
+.checkout-form input,
+.checkout-form select,
+.checkout-form button{
+    padding:10px;
+    margin-top:5px;
+    border:1px solid #ccc;
+    border: radious 5px;
+}
+
+.checkout-form button{
+    background-color: blue;
+    color:white;
+    cursor:pointer;
+}
